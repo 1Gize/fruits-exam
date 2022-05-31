@@ -1,0 +1,35 @@
+= Fruits
+:library: Asciidoctor
+:idprefix:
+:numbered:
+:toc: preamble
+:toc-title: pass:[<h3>Table od contents</h3>]
+ifdef::env-github[]
+:note-caption: :information_source:
+:tip-caption: :bulb:
+endif::[]
+
+== What is it?
+
+This program reads from 2 csv files and reads data about employees.
+Which one collected the most every month, if they specilized in some fruit
+and which employe had earned the most for the company.
+
+== Dependencies
+
+To run this program u will only need fresh out of the box scala
+no additional libraries are needed
+
+
+
+== How to run?
+
+To run this program clone this project and then launch the main
+class in project
+
+== What were the main difficulties ?
+
+I struggled with time first and foremost soo I only were able to
+find out what employee collected most fruits per year, i wasnt able to
+find (friut,nameOfEmploye) => value only prints me the max ammount not max per fruit.
+The test are also unfortunatelly missing due to a lack of time.
